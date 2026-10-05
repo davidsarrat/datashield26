@@ -1,0 +1,146 @@
+
+.arch[data-v-0323d45a] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.am-box[data-v-0323d45a] {
+  fill: rgba(255, 255, 255, 0.06);
+  stroke: rgba(255, 255, 255, 0.16);
+  stroke-width: 1;
+  transition: fill 0.4s ease, stroke 0.4s ease;
+}
+.am-box.fl[data-v-0323d45a] {
+  fill: rgba(136, 204, 255, 0.07);
+  stroke: rgba(136, 204, 255, 0.35);
+}
+.am-box.hot[data-v-0323d45a] {
+  fill: rgba(255, 208, 0, 0.11);
+  stroke: rgba(255, 208, 0, 0.8);
+}
+.am-flow[data-v-0323d45a] {
+  fill: none;
+  stroke-width: 2.2;
+  stroke-dasharray: 8 6;
+  transition: stroke 0.4s ease, opacity 0.4s ease;
+}
+.am-on .am-flow[data-v-0323d45a] { opacity: 0.7;
+}
+.am-off .am-flow[data-v-0323d45a] { opacity: 0.18;
+}
+.am-lbl[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  paint-order: stroke;
+  stroke: rgba(30, 18, 8, 0.7);
+  stroke-width: 4px;
+}
+.am-name[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 19px;
+  font-weight: 600;
+  fill: #f0e8e0;
+}
+.am-sub[data-v-0323d45a] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  fill: #c8b8a8;
+  transition: opacity 0.3s ease;
+}
+.am-sub.hide[data-v-0323d45a] { opacity: 0;
+}
+.am-db[data-v-0323d45a] {
+  fill: rgba(255, 179, 102, 0.22);
+  stroke: #ffb366;
+  stroke-width: 1.5;
+}
+.am-db-lbl[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  fill: #ffb366;
+}
+.am-icon circle[data-v-0323d45a],
+.am-icon path[data-v-0323d45a] {
+  fill: none;
+  stroke: #e0d8d0;
+  stroke-width: 1.8;
+}
+.am-chip[data-v-0323d45a] { stroke-width: 1.2;
+}
+.am-chip.blue[data-v-0323d45a] { fill: rgba(136, 204, 255, 0.16); stroke: #88ccff;
+}
+.am-chip.yellow[data-v-0323d45a] { fill: rgba(255, 208, 0, 0.14); stroke: #FFD000;
+}
+.am-chip.green[data-v-0323d45a] { fill: rgba(102, 221, 170, 0.16); stroke: #66ddaa;
+}
+.am-chip.grey[data-v-0323d45a] { fill: rgba(240, 232, 224, 0.08); stroke: rgba(240, 232, 224, 0.5);
+}
+.am-chip-t[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+.am-chip-t.blue[data-v-0323d45a] { fill: #88ccff;
+}
+.am-chip-t.yellow[data-v-0323d45a] { fill: #FFD000;
+}
+.am-chip-t.green[data-v-0323d45a] { fill: #66ddaa;
+}
+.am-chip-t.grey[data-v-0323d45a] { fill: #e0d8d0;
+}
+.am-pin[data-v-0323d45a] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.5px;
+  font-weight: 600;
+  fill: #FFD000;
+}
+.am-train[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13.5px;
+  font-weight: 600;
+  fill: #66ddaa;
+}
+.am-agg[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  fill: #FFD000;
+}
+.am-agg-sub[data-v-0323d45a] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  fill: #d8d0c8;
+}
+.am-shield-back[data-v-0323d45a] {
+  fill: #12281e;
+}
+.am-shield[data-v-0323d45a] {
+  stroke: #d4fff0;
+  stroke-width: 1;
+  stroke-opacity: 0.9;
+}
+.am-shield-glow[data-v-0323d45a] {
+  animation: amShieldBreath-0323d45a 2.4s ease-in-out infinite;
+}
+@keyframes amShieldBreath-0323d45a {
+0%, 100% { opacity: 0.45;
+}
+50% { opacity: 1;
+}
+}
+.am-shield-t[data-v-0323d45a] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  fill: #0e2a1f;
+}
+.am-fade[data-v-0323d45a] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.am-fade.on[data-v-0323d45a] {
+  opacity: 1;
+}

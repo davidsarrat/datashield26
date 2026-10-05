@@ -1,0 +1,93 @@
+
+.tf[data-v-51198b41] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.tf-box[data-v-51198b41] {
+  fill: rgba(255, 255, 255, 0.05);
+  stroke: rgba(255, 255, 255, 0.16);
+  stroke-width: 1;
+  transition: fill 0.4s ease, stroke 0.4s ease;
+}
+.tf-box.hot[data-v-51198b41] {
+  fill: rgba(255, 208, 0, 0.1);
+  stroke: rgba(255, 208, 0, 0.75);
+}
+.tf-name[data-v-51198b41] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  fill: #f0e8e0;
+}
+.tf-branch[data-v-51198b41] {
+  fill: none;
+  stroke: #e0d8d0;
+  stroke-width: 1.6;
+}
+.tf-split[data-v-51198b41] { fill: #88ccff;
+}
+.tf-leaf[data-v-51198b41] { fill: #66ddaa;
+}
+.tf-bar[data-v-51198b41] {
+  fill: #ffb366;
+  opacity: 0.85;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: tfJitter-51198b41 1.3s ease-in-out infinite;
+}
+@keyframes tfJitter-51198b41 {
+0%, 100% { transform: scaleY(1);
+}
+50% { transform: scaleY(0.72);
+}
+}
+.tf-mini[data-v-51198b41] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  fill: #d8d0c8;
+}
+.tf-arrow[data-v-51198b41] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 22px;
+  fill: #b8b0a8;
+}
+.tf-op[data-v-51198b41] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 34px;
+  font-weight: 600;
+  fill: #FFD000;
+}
+.tf-note[data-v-51198b41] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  fill: #f0e8e0;
+}
+.tf-path[data-v-51198b41] {
+  fill: none;
+  stroke: rgba(240, 232, 224, 0.25);
+  stroke-width: 1.6;
+  stroke-dasharray: 6 6;
+}
+.tf-lbl[data-v-51198b41] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  fill: #FFD000;
+  paint-order: stroke;
+  stroke: rgba(30, 18, 8, 0.7);
+  stroke-width: 4px;
+}
+.tf-ens[data-v-51198b41] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  fill: #f0e8e0;
+}
+.tf-fade[data-v-51198b41] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.tf-fade.on[data-v-51198b41] {
+  opacity: 1;
+}

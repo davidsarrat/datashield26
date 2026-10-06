@@ -1,0 +1,101 @@
+
+.dps-back[data-v-8dc88faf] { fill: #12281e;
+}
+.dps-edge[data-v-8dc88faf] {
+  stroke: #d4fff0;
+  stroke-width: 1;
+  stroke-opacity: 0.9;
+}
+.dps-glow[data-v-8dc88faf] { animation: dpsBreath-8dc88faf 2.4s ease-in-out infinite;
+}
+@keyframes dpsBreath-8dc88faf {
+0%, 100% { opacity: 0.45;
+}
+50% { opacity: 1;
+}
+}
+.dps-t[data-v-8dc88faf] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  fill: #0e2a1f;
+}
+
+.sa[data-v-0c1565ab] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.sa-box[data-v-0c1565ab] {
+  fill: rgba(255, 255, 255, 0.06);
+  stroke: rgba(255, 255, 255, 0.16);
+  stroke-width: 1;
+  transition: all 0.4s ease;
+}
+.sa-box.ghost[data-v-0c1565ab] {
+  fill: rgba(255, 138, 122, 0.06);
+  stroke: #ff8a7a;
+  stroke-dasharray: 7 5;
+}
+.sa-box.target[data-v-0c1565ab] {
+  stroke: rgba(255, 208, 0, 0.8);
+}
+.sa-box.danger[data-v-0c1565ab] {
+  stroke: #ff8a7a;
+  fill: rgba(255, 138, 122, 0.08);
+}
+.sa-name[data-v-0c1565ab] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  fill: #f0e8e0;
+}
+.sa-name.ghosttxt[data-v-0c1565ab] { fill: #ffb0a4;
+}
+.sa-chip[data-v-0c1565ab] {
+  fill: rgba(201, 167, 255, 0.14);
+  stroke: #c9a7ff;
+  stroke-width: 1.2;
+  transition: all 0.4s ease;
+}
+.sa-chip.red[data-v-0c1565ab] { fill: rgba(255, 138, 122, 0.12); stroke: #ff8a7a;
+}
+.sa-chip.green[data-v-0c1565ab] { fill: rgba(136, 204, 255, 0.12); stroke: #88ccff;
+}
+.sa-chip-t[data-v-0c1565ab] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 600;
+  fill: #f0e8e0;
+}
+.sa-ghost-t[data-v-0c1565ab] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  fill: #ffb0a4;
+}
+.sa-link[data-v-0c1565ab] {
+  fill: none;
+  stroke: rgba(240, 232, 224, 0.18);
+  stroke-width: 1.6;
+  stroke-dasharray: 6 6;
+}
+.sa-sum[data-v-0c1565ab] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 600;
+  fill: #c9a7ff;
+  transition: fill 0.4s ease;
+}
+.sa-sum.bad[data-v-0c1565ab] { fill: #ff8a7a;
+}
+.sa-sum.good[data-v-0c1565ab] { fill: #66ddaa;
+}
+.sa-fade[data-v-0c1565ab] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.sa-fade.on[data-v-0c1565ab] {
+  opacity: 1;
+}

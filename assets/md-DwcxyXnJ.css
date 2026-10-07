@@ -1,0 +1,103 @@
+
+.fr[data-v-d29f7ac6] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.fr-box[data-v-d29f7ac6] {
+  fill: rgba(136, 204, 255, 0.07);
+  stroke: rgba(136, 204, 255, 0.35);
+  stroke-width: 1;
+  transition: fill 0.4s ease, stroke 0.4s ease;
+}
+.fr-box.hot[data-v-d29f7ac6] {
+  fill: rgba(255, 208, 0, 0.13);
+  stroke: #FFD000;
+  stroke-width: 1.6;
+}
+.fr-flow[data-v-d29f7ac6] {
+  fill: none;
+  stroke-width: 2;
+  stroke-dasharray: 8 6;
+  opacity: 0.55;
+}
+.fr-link[data-v-d29f7ac6] {
+  fill: none;
+  stroke: rgba(240, 232, 224, 0.18);
+  stroke-width: 1.6;
+}
+.fr-lbl[data-v-d29f7ac6] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  paint-order: stroke;
+  stroke: rgba(30, 18, 8, 0.7);
+  stroke-width: 4px;
+}
+.fr-name[data-v-d29f7ac6] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  font-weight: 600;
+  fill: #f0e8e0;
+}
+.fr-db[data-v-d29f7ac6] {
+  fill: rgba(255, 179, 102, 0.22);
+  stroke: #ffb366;
+  stroke-width: 1.5;
+}
+.fr-db-lbl[data-v-d29f7ac6] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 13px;
+  fill: #ffb366;
+}
+.fr-chip[data-v-d29f7ac6] {
+  stroke-width: 1.2;
+}
+.fr-chip.blue[data-v-d29f7ac6] {
+  fill: rgba(136, 204, 255, 0.16);
+  stroke: #88ccff;
+}
+.fr-chip.pink[data-v-d29f7ac6] {
+  fill: rgba(255, 170, 204, 0.14);
+  stroke: #ffaacc;
+}
+.fr-chip-t[data-v-d29f7ac6] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fr-chip-t.blue[data-v-d29f7ac6] { fill: #88ccff;
+}
+.fr-chip-t.pink[data-v-d29f7ac6] { fill: #ffaacc;
+}
+.fr-train[data-v-d29f7ac6] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  fill: #FFD000;
+}
+.fr-formula[data-v-d29f7ac6] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 17px;
+  font-weight: 500;
+  fill: #FFD000;
+}
+.fr-sub[data-v-d29f7ac6] {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  fill: #c8b8a8;
+}
+.fr-repeat[data-v-d29f7ac6] {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 17px;
+  font-weight: 600;
+  fill: #FFD000;
+}
+.fr-fade[data-v-d29f7ac6] {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.fr-fade.on[data-v-d29f7ac6] {
+  opacity: 1;
+}

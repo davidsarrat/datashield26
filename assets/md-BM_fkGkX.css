@@ -1,0 +1,105 @@
+
+.fp-dot[data-v-5579829b] {
+  filter: drop-shadow(0 0 4px var(--c));
+}
+
+.dps-back[data-v-bee53b7a] { fill: var(--bg);
+}
+.dps-edge[data-v-bee53b7a] {
+  stroke: var(--fg);
+  stroke-width: 1;
+  stroke-opacity: 0.9;
+}
+.dps-glow[data-v-bee53b7a] { animation: dpsBreath-bee53b7a 2.4s ease-in-out infinite;
+}
+@keyframes dpsBreath-bee53b7a {
+0%, 100% { opacity: 0.45;
+}
+50% { opacity: 1;
+}
+}
+.dps-t[data-v-bee53b7a] {
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  fill: var(--bg);
+}
+
+.sa[data-v-1dcae237] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.sa-box[data-v-1dcae237] {
+  fill: rgba(var(--fg-rgb), 0.06);
+  stroke: rgba(var(--fg-rgb), 0.16);
+  stroke-width: 1;
+  transition: all 0.4s ease;
+}
+.sa-box.ghost[data-v-1dcae237] {
+  fill: rgba(var(--data-rgb), 0.06);
+  stroke: var(--data);
+  stroke-dasharray: 7 5;
+}
+.sa-box.target[data-v-1dcae237] {
+  stroke: rgba(var(--accent-rgb), 0.8);
+}
+.sa-box.danger[data-v-1dcae237] {
+  stroke: var(--data);
+  fill: rgba(var(--data-rgb), 0.08);
+}
+.sa-name[data-v-1dcae237] {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 600;
+  fill: var(--fg);
+}
+.sa-name.ghosttxt[data-v-1dcae237] { fill: var(--data);
+}
+.sa-chip[data-v-1dcae237] {
+  fill: rgba(var(--global-rgb), 0.14);
+  stroke: var(--global);
+  stroke-width: 1.2;
+  transition: all 0.4s ease;
+}
+.sa-chip.red[data-v-1dcae237] { fill: rgba(var(--data-rgb), 0.12); stroke: var(--data);
+}
+.sa-chip.green[data-v-1dcae237] { fill: rgba(var(--updates-rgb), 0.12); stroke: var(--updates);
+}
+.sa-chip-t[data-v-1dcae237] {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 600;
+  fill: var(--fg);
+}
+.sa-ghost-t[data-v-1dcae237] {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  fill: var(--data);
+}
+.sa-link[data-v-1dcae237] {
+  fill: none;
+  stroke: rgba(var(--fg-rgb), 0.18);
+  stroke-width: 1.6;
+  stroke-dasharray: 6 6;
+}
+.sa-sum[data-v-1dcae237] {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  fill: var(--global);
+  transition: fill 0.4s ease;
+}
+.sa-sum.bad[data-v-1dcae237] { fill: var(--data);
+}
+.sa-sum.good[data-v-1dcae237] { fill: var(--privacy);
+}
+.sa-fade[data-v-1dcae237] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.sa-fade.on[data-v-1dcae237] {
+  opacity: 1;
+}

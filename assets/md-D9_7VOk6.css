@@ -1,0 +1,95 @@
+
+.ff-link-base[data-v-ae91e688] { fill:none; stroke:#8E99A8; stroke-width:1.5; stroke-opacity:.32; transition:stroke .3s ease;
+}
+.sending .ff-link-base[data-v-ae91e688],.orchestrating .ff-link-base[data-v-ae91e688] { stroke:var(--global);
+}
+.returning .ff-link-base[data-v-ae91e688] { stroke:var(--updates);
+}
+.orchestrating .ff-link-base[data-v-ae91e688] { stroke-opacity:.85; stroke-width:3.8; animation:ff-orchestration-ae91e688 5s ease-in-out infinite alternate;
+}
+.ff-pulse[data-v-ae91e688] { fill:none; stroke:var(--global); stroke-width:3.8; stroke-linecap:round; stroke-dasharray:12 150; animation:ff-send-ae91e688 5.6s linear infinite;
+}
+.returning .ff-pulse[data-v-ae91e688] { stroke:var(--updates); animation-direction:reverse;
+}
+.ff-progress[data-v-ae91e688] { fill:none; stroke:var(--training); stroke-width:3; stroke-dasharray:11 5; animation:ff-progress-ae91e688 3s linear infinite;
+}
+.ff-round-progress[data-v-ae91e688] { fill:none; stroke:var(--global); stroke-width:3; stroke-dasharray:12 6; animation:ff-progress-ae91e688 5.6s linear infinite;
+}
+.ff-training-rack[data-v-ae91e688] { stroke:var(--accent); stroke-width:2;
+}
+.ff-led[data-v-ae91e688] { animation:ff-led-ae91e688 1.3s ease-in-out infinite alternate;
+}
+.ff-merge[data-v-ae91e688] { animation:ff-led-ae91e688 2.8s steps(6) infinite alternate;
+}
+.ff-model[data-v-ae91e688] { transform-box:fill-box; transform-origin:center; animation:ff-model-ae91e688 30s linear infinite;
+}
+@keyframes ff-orchestration-ae91e688 {
+from { stroke-opacity:.7;
+}
+to { stroke-opacity:.9;
+}
+}
+@keyframes ff-model-ae91e688 {
+to { transform:rotate(360deg);
+}
+}
+@keyframes ff-send-ae91e688 {
+to { stroke-dashoffset:-648;
+}
+}
+@keyframes ff-progress-ae91e688 {
+to { stroke-dashoffset:310;
+}
+}
+@keyframes ff-led-ae91e688 {
+from { opacity:.24;
+}
+to { opacity:1;
+}
+}
+@media (prefers-reduced-motion:reduce) {
+.ff-pulse[data-v-ae91e688],.ff-progress[data-v-ae91e688],.ff-round-progress[data-v-ae91e688],.ff-led[data-v-ae91e688],.ff-merge[data-v-ae91e688],.ff-model[data-v-ae91e688],.orchestrating .ff-link-base[data-v-ae91e688] { animation:none;
+}
+}
+
+.flower-world-overlay[data-v-4e8f631a] { position:absolute; inset:0; width:100%; height:100%; pointer-events:none;
+}
+.flower-world-overlay text[data-v-4e8f631a] { paint-order:stroke; stroke:#050916; stroke-width:5px; stroke-linejoin:round;
+}
+.fw-leader[data-v-4e8f631a] { fill:none; stroke:var(--global); stroke-width:2.4; stroke-opacity:.5;
+}
+.fw-node-leader[data-v-4e8f631a] { stroke:var(--accent);
+}
+.fw-label[data-v-4e8f631a] { font-family:var(--font-sans); font-size:22px; font-weight:600; fill:var(--fg);
+}
+.fw-center[data-v-4e8f631a] { font-family:var(--font-sans); font-size:25px; font-weight:600; fill:var(--fg);
+}
+.fw-blue[data-v-4e8f631a] { fill:var(--updates);
+}
+.fw-orchid[data-v-4e8f631a] { fill:var(--global);
+}
+.fw-training[data-v-4e8f631a] { font-family:var(--font-sans); font-size:22px; fill:var(--training);
+}
+.fw-data[data-v-4e8f631a] { fill:var(--data); font-family:var(--font-mono); font-size:20px;
+}
+.fw-data-leader[data-v-4e8f631a] { stroke:var(--data);
+}
+.fw-flow-label[data-v-4e8f631a] { font-family:var(--font-mono); font-size:25px; font-weight:500;
+}
+.fw-round[data-v-4e8f631a] { font-family:var(--font-mono); font-size:20px; fill:var(--global);
+}
+.fw-formula[data-v-4e8f631a] { font-family:var(--font-mono); font-size:24px; fill:var(--accent);
+}
+.fw-sub[data-v-4e8f631a] { font-family:var(--font-sans); font-size:21px; fill:var(--muted);
+}
+.fw-repeat[data-v-4e8f631a] { font-family:var(--font-mono); font-size:23px; fill:var(--accent);
+}
+
+.slidev-page-2 .slidev-layout[data-v-3e9ed7b2]::after { opacity:0;
+}
+.flower-slide[data-v-3e9ed7b2] { position:absolute !important; inset:0; width:100%; height:100%;
+}
+.flower-slide > .slide-title[data-v-3e9ed7b2] { position:absolute; left:5.7%; right:5.7%; top:7.2%; z-index:3;
+}
+.flower-slide > .flower-caption[data-v-3e9ed7b2] { position:absolute; left:5.7%; right:5.7%; bottom:5.7%; margin:0; min-height:0; font-size:1.05em; line-height:1.4; z-index:3;
+}

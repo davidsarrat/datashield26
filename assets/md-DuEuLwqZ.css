@@ -1,0 +1,51 @@
+
+.rd[data-v-e029f01d] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.rd-grid[data-v-e029f01d] {
+  stroke: rgba(var(--fg-rgb), 0.09);
+  stroke-width: 1;
+}
+.rd-tick[data-v-e029f01d] {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  fill: var(--muted);
+}
+.rd-name[data-v-e029f01d] {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  font-weight: 600;
+  fill: var(--fg);
+}
+.rd-sub[data-v-e029f01d] {
+  font-family: var(--font-mono);
+  font-size: 11.5px;
+  fill: var(--muted);
+}
+.rd-bar[data-v-e029f01d] {
+  fill: rgba(var(--fg-rgb), 0.28);
+  transition: x 1s ease, width 1s ease;
+}
+.rd-dot[data-v-e029f01d] {
+  stroke: var(--bg);
+  stroke-width: 2;
+}
+.rd-dot.central[data-v-e029f01d] { fill: var(--updates);
+}
+.rd-dot.dp[data-v-e029f01d] {
+  fill: var(--privacy);
+  transition: cx 1s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease;
+}
+.rd-gap[data-v-e029f01d] {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--fg);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.rd-gap.on[data-v-e029f01d] { opacity: 1;
+}

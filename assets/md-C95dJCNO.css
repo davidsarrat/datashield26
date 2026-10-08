@@ -1,0 +1,93 @@
+
+.tf[data-v-4e563c73] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.tf-box[data-v-4e563c73] {
+  fill: rgba(var(--fg-rgb), 0.05);
+  stroke: rgba(var(--fg-rgb), 0.16);
+  stroke-width: 1;
+  transition: fill 0.4s ease, stroke 0.4s ease;
+}
+.tf-box.hot[data-v-4e563c73] {
+  fill: rgba(var(--accent-rgb), 0.1);
+  stroke: rgba(var(--accent-rgb), 0.75);
+}
+.tf-name[data-v-4e563c73] {
+  font-family: var(--font-mono);
+  font-size: 18px;
+  font-weight: 600;
+  fill: var(--fg);
+}
+.tf-branch[data-v-4e563c73] {
+  fill: none;
+  stroke: var(--fg);
+  stroke-width: 1.6;
+}
+.tf-split[data-v-4e563c73] { fill: var(--updates);
+}
+.tf-leaf[data-v-4e563c73] { fill: var(--privacy);
+}
+.tf-bar[data-v-4e563c73] {
+  fill: var(--data);
+  opacity: 0.85;
+  transform-box: fill-box;
+  transform-origin: 50% 100%;
+  animation: tfJitter-4e563c73 1.3s ease-in-out infinite;
+}
+@keyframes tfJitter-4e563c73 {
+0%, 100% { transform: scaleY(1);
+}
+50% { transform: scaleY(0.72);
+}
+}
+.tf-mini[data-v-4e563c73] {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  fill: var(--muted);
+}
+.tf-arrow[data-v-4e563c73] {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  fill: var(--muted);
+}
+.tf-op[data-v-4e563c73] {
+  font-family: var(--font-mono);
+  font-size: 34px;
+  font-weight: 600;
+  fill: var(--accent);
+}
+.tf-note[data-v-4e563c73] {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  fill: var(--fg);
+}
+.tf-path[data-v-4e563c73] {
+  fill: none;
+  stroke: rgba(var(--fg-rgb), 0.25);
+  stroke-width: 1.6;
+  stroke-dasharray: 6 6;
+}
+.tf-lbl[data-v-4e563c73] {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  fill: var(--accent);
+  paint-order: stroke;
+  stroke: rgba(var(--bg-rgb), 0.7);
+  stroke-width: 4px;
+}
+.tf-ens[data-v-4e563c73] {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  fill: var(--fg);
+}
+.tf-fade[data-v-4e563c73] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.tf-fade.on[data-v-4e563c73] {
+  opacity: 1;
+}

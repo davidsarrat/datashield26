@@ -1,0 +1,121 @@
+
+.af-exterior[data-v-d83f1614] { transition: opacity .75s ease;
+}
+.af-exterior.xray[data-v-d83f1614] { opacity: .16;
+}
+.af-links path[data-v-d83f1614] { fill: none; stroke-width: 2; stroke-dasharray: 7 9; opacity: .24;
+}
+.af-links:not(.active) path[data-v-d83f1614] { stroke: #84909F; stroke-dasharray: none;
+}
+.af-links.active path[data-v-d83f1614] { opacity: .8; animation: af-flow-d83f1614 2.2s linear infinite;
+}
+.af-data-focus path[data-v-d83f1614], .af-data-focus ellipse[data-v-d83f1614] { stroke-width: 3.5;
+}
+.af-spawn[data-v-d83f1614] { transform-box: fill-box; transform-origin: center; animation: af-spawn-d83f1614 .6s ease-out both;
+}
+.af-model[data-v-d83f1614] { transform-box: fill-box; transform-origin: center;
+}
+.af-local-model .af-model[data-v-d83f1614] { animation: af-model-d83f1614 24s linear infinite;
+}
+.af-building-model[data-v-d83f1614] { animation: af-merge-d83f1614 8s steps(4,end) infinite;
+}
+@keyframes af-flow-d83f1614 {
+to { stroke-dashoffset: -64;
+}
+}
+@keyframes af-spawn-d83f1614 {
+from { transform: scale(.04); opacity: .15;
+}
+to { transform: scale(1); opacity: 1;
+}
+}
+@keyframes af-model-d83f1614 {
+to { transform: rotate(360deg);
+}
+}
+@keyframes af-merge-d83f1614 {
+0% { transform: scale(.92);
+}
+95% { transform: scale(1.12);
+}
+100% { transform: scale(.92);
+}
+}
+@media (prefers-reduced-motion: reduce) {
+.af-links.active path[data-v-d83f1614], .af-spawn[data-v-d83f1614], .af-local-model .af-model[data-v-d83f1614], .af-building-model[data-v-d83f1614] { animation: none;
+}
+.af-exterior[data-v-d83f1614] { transition: none;
+}
+}
+
+.arch-world-overlay[data-v-4d198b30] { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; pointer-events: none;
+}
+.aw-identity[data-v-4d198b30] { opacity: 0; transition: opacity .55s ease;
+}
+.aw-identity.shown[data-v-4d198b30] { opacity: 1;
+}
+.aw-panel[data-v-4d198b30] { fill: #071323; fill-opacity: .94; stroke: #405873; stroke-width: 1;
+}
+.aw-leader[data-v-4d198b30] { fill: none; stroke: #B8CADE; stroke-width: 2.6; stroke-opacity: .55;
+}
+.aw-name[data-v-4d198b30] { font-family: var(--font-sans, Inter, sans-serif); fill: var(--fg, #EDF5FF); font-size: 24px; font-weight: 600;
+}
+.aw-small[data-v-4d198b30] { font-family: var(--font-mono, 'Roboto Mono', monospace); font-size: 20px; font-weight: 500;
+}
+.aw-superlink-leader[data-v-4d198b30] { stroke: var(--global, #D2A4ED); stroke-opacity: .9;
+}
+.aw-superlink-tag[data-v-4d198b30] { stroke: var(--global, #D2A4ED);
+}
+.aw-sub[data-v-4d198b30] { font-family: var(--font-sans, Inter, sans-serif); font-size: 21px; fill: var(--muted, #B8CADE);
+}
+.aw-chip[data-v-4d198b30] { stroke-width: 1; fill-opacity: .96;
+}
+.aw-data[data-v-4d198b30] { fill: #30291F; stroke: var(--data, #F5BE72);
+}
+.aw-data-text[data-v-4d198b30] { fill: var(--data, #F5BE72);
+}
+.aw-updates[data-v-4d198b30] { fill: #071323; stroke: var(--updates, #4D8DDF);
+}
+.aw-updates-text[data-v-4d198b30] { fill: var(--updates, #4D8DDF);
+}
+.aw-global[data-v-4d198b30] { fill: #21172D; stroke: var(--global, #FF8AF0);
+}
+.aw-global-text[data-v-4d198b30] { fill: var(--global, #FF8AF0);
+}
+.aw-product[data-v-4d198b30] { stroke: var(--accent, #7EFAFF);
+}
+.aw-highlight[data-v-4d198b30] { fill: #142B3D; stroke: var(--accent, #7EFAFF);
+}
+.aw-highlight-text[data-v-4d198b30] { fill: var(--accent, #7EFAFF);
+}
+.aw-privacy[data-v-4d198b30] { fill: #123027; stroke: var(--privacy, #38C6AD);
+}
+.aw-privacy-text[data-v-4d198b30] { fill: var(--privacy, #38C6AD);
+}
+.aw-history[data-v-4d198b30] { fill: #1B2636; stroke: #93A9C2;
+}
+.aw-history-text[data-v-4d198b30] { fill: #EDF5FF; font-size: 18px;
+}
+.aw-status[data-v-4d198b30] { fill: #071323; fill-opacity: .95;
+}
+.aw-status-text[data-v-4d198b30] { fill: var(--accent, #7EFAFF); font-family: var(--font-sans, Inter, sans-serif); font-size: 19px; font-weight: 600;
+}
+.aw-status-text .privacy[data-v-4d198b30] { fill: var(--privacy, #38C6AD);
+}
+.aw-shield[data-v-4d198b30] { fill: #173C36; stroke: var(--privacy, #38C6AD); stroke-width: 1.5;
+}
+.aw-dp[data-v-4d198b30] { fill: var(--privacy, #38C6AD); font-family: var(--font-mono,'Roboto Mono',monospace); font-size: 12px; font-weight: 700;
+}
+@media (prefers-reduced-motion: reduce) {
+.aw-identity[data-v-4d198b30] { transition: none;
+}
+}
+
+.slidev-layout[data-v-3189bf56]:has(.architecture-slide)::after { opacity: 0;
+}
+.architecture-slide[data-v-3189bf56] { position: absolute !important; inset: 0; width: 100%; height: 100%;
+}
+.architecture-slide > .slide-title[data-v-3189bf56] { position: absolute; left: 5.7%; right: 5.7%; top: 7.2%; z-index: 3;
+}
+.architecture-slide > .architecture-caption[data-v-3189bf56] { position: absolute; left: 5.7%; right: 5.7%; bottom: 5.7%; margin: 0; min-height: 0; font-size: 1.05em; line-height: 1.4; z-index: 3;
+}

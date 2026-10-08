@@ -1,0 +1,111 @@
+
+.dp[data-v-2e0b44a4] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.dp-head[data-v-2e0b44a4] { stroke: none;
+}
+.dp-head-data[data-v-2e0b44a4] { fill: var(--data);
+}
+.dp-head-outlier[data-v-2e0b44a4] { fill: var(--global);
+}
+.dp-head-sum[data-v-2e0b44a4] { fill: rgba(var(--fg-rgb), 0.45);
+}
+.dp-head-noisy[data-v-2e0b44a4] { fill: var(--privacy);
+}
+.dp-arrow[data-v-2e0b44a4] {
+  stroke: var(--data);
+  stroke-width: 2.6;
+  stroke-linecap: round;
+}
+.dp-arrow.outlier[data-v-2e0b44a4] {
+  stroke: var(--global);
+}
+.dp-arrow.sum[data-v-2e0b44a4] {
+  stroke: rgba(var(--fg-rgb), 0.35);
+  stroke-dasharray: 5 4;
+}
+.dp-arrow.noisy[data-v-2e0b44a4] {
+  stroke: var(--privacy);
+  stroke-width: 3.4;
+}
+.dp-origin[data-v-2e0b44a4] {
+  fill: var(--fg);
+}
+.dp-clip[data-v-2e0b44a4] {
+  fill: rgba(var(--accent-rgb), 0.06);
+  stroke: var(--accent);
+  stroke-width: 1.6;
+  stroke-dasharray: 6 5;
+}
+.dp-c[data-v-2e0b44a4] {
+  font-family: var(--font-mono);
+  font-size: 20px;
+  font-weight: 600;
+  fill: var(--accent);
+}
+.dp-dot[data-v-2e0b44a4] {
+  fill: var(--privacy);
+  opacity: 0.75;
+  animation: dpTwinkle-2e0b44a4 2.2s ease-in-out infinite;
+}
+@keyframes dpTwinkle-2e0b44a4 {
+0%, 100% { opacity: 0.2;
+}
+50% { opacity: 0.95;
+}
+}
+.dp-wobble[data-v-2e0b44a4] {
+  transform-box: fill-box;
+  transform-origin: 0% 0%;
+  animation: dpWobble-2e0b44a4 1.6s ease-in-out infinite;
+}
+@keyframes dpWobble-2e0b44a4 {
+0%, 100% { transform: rotate(-4deg);
+}
+50% { transform: rotate(4deg);
+}
+}
+.dp-arrow.outlier[data-v-2e0b44a4] {
+  animation: dpPulse-2e0b44a4 1.8s ease-in-out infinite;
+}
+@keyframes dpPulse-2e0b44a4 {
+0%, 100% { stroke-width: 2.6;
+}
+50% { stroke-width: 4.2;
+}
+}
+.dp-note[data-v-2e0b44a4] {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  fill: var(--global);
+}
+.dp-step[data-v-2e0b44a4] {
+  font-family: var(--font-mono);
+  font-size: 17px;
+  font-weight: 500;
+  fill: var(--fg);
+}
+.dp-chev[data-v-2e0b44a4] {
+  font-family: var(--font-mono);
+  font-size: 46px;
+  fill: rgba(var(--fg-rgb), 0.45);
+}
+.dp-panel[data-v-2e0b44a4] {
+  transition: opacity 0.45s ease;
+}
+.dp-panel.past[data-v-2e0b44a4] {
+  opacity: 1;
+}
+.dp-fade[data-v-2e0b44a4] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.dp-fade.on[data-v-2e0b44a4] {
+  opacity: 1;
+}
+.dp-fade.on.past[data-v-2e0b44a4] {
+  opacity: 1;
+}

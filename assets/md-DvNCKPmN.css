@@ -1,0 +1,58 @@
+
+.app-policy-overlay[data-v-afbf9186] { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none;
+}
+.app-policy-overlay text[data-v-afbf9186] { font-family: var(--font-sans, Inter, sans-serif);
+}
+.process-heading[data-v-afbf9186] { font-size: 28px; font-weight: 600; fill: #F1F6FB;
+}
+.process-number[data-v-afbf9186] { fill: #83DBCB;
+}
+.policy-world-label rect[data-v-afbf9186] { fill: #071323; fill-opacity: .94; stroke: #617A88; stroke-opacity: .6;
+}
+.policy-world-label text[data-v-afbf9186] { font-size: 21px; font-weight: 550; fill: #EAF2F6;
+}
+.summary-rule[data-v-afbf9186] { stroke: #516B7B; stroke-opacity: .6; stroke-width: 1.5;
+}
+.permission[data-v-afbf9186] { font-size: 28px; font-weight: 600; fill: #F5BE72;
+}
+.summary-main[data-v-afbf9186] { font-size: 27px; font-weight: 550; fill: #EEF5F8;
+}
+.summary-detail[data-v-afbf9186] { font-size: 25px; fill: #CFDFE7;
+}
+.policy-stage text[data-v-afbf9186] { font-size: 24px; fill: #AEBFCB;
+}
+.policy-stage circle[data-v-afbf9186] { fill: #879CA9;
+}
+.policy-stage.stage-active text[data-v-afbf9186], .policy-stage.stage-active circle[data-v-afbf9186] { fill: #9DF5C8;
+}
+.policy-stage.stage-active text[data-v-afbf9186] { font-weight: 650;
+}
+.quiet-note[data-v-afbf9186] { font-size: 18px; fill: #CADCE5;
+}
+.next-tag[data-v-afbf9186] { font-size: 19px; font-weight: 650; fill: #BACBFF;
+}
+.reference-caption[data-v-afbf9186] { font-size: 19px; fill: #C8D9E1;
+}
+.policy-reference[data-v-afbf9186] { pointer-events: auto;
+}
+.upload-code rect[data-v-afbf9186] { fill: #071321; fill-opacity: .96; stroke: #527486; stroke-width: 1;
+}
+.upload-code text[data-v-afbf9186] { font: 22px var(--font-mono, monospace); fill: #D1E6F9;
+}
+.code-string[data-v-afbf9186] { fill: #9DF5C8;
+}
+.code-arrow[data-v-afbf9186] { fill: #9BBECC;
+}
+.installed-note text[data-v-afbf9186] { font-size: 25px; fill: #E4F2ED;
+}
+.extension-tone[data-v-afbf9186] { fill: #F5BE72;
+}
+.flat-glyph[data-v-afbf9186] { font: 22px var(--font-mono, monospace); fill: #FFF;
+}
+
+.apps-policy-world[data-v-d3e1bf60] { position: absolute !important; inset: 0; width: 100%; height: 100%;
+}
+.apps-policy-world > .slide-title[data-v-d3e1bf60] { position: absolute; left: 5.7%; right: 5.7%; top: 7.2%; z-index: 3;
+}
+.apps-policy-world > .app-policy-caption[data-v-d3e1bf60] { position: absolute; left: 50%; bottom: 5.1%; transform: translateX(-50%); width: max-content; max-width: 90%; margin: 0; padding: .25em .7em; min-height: 0; border-radius: .3em; background: rgba(4, 12, 26, .94); font-size: 1em; line-height: 1.4; z-index: 3;
+}

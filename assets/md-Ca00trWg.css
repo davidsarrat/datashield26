@@ -1,0 +1,103 @@
+
+.cv[data-v-e9be7f67] {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+.cv-box[data-v-e9be7f67] {
+  fill: rgba(var(--fg-rgb), 0.05);
+  stroke: rgba(var(--fg-rgb), 0.14);
+}
+.cv-name[data-v-e9be7f67] {
+  font-family: var(--font-mono);
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--fg);
+}
+.cv-dot[data-v-e9be7f67] {
+  transition: fill 0.5s ease;
+}
+.cv-key[data-v-e9be7f67] {
+  fill: rgba(var(--accent-rgb), 0.08);
+  stroke: rgba(var(--accent-rgb), 0.6);
+}
+.cv-key-t[data-v-e9be7f67] {
+  font-family: var(--font-mono);
+  font-size: 13.5px;
+  font-weight: 600;
+  fill: var(--accent);
+}
+.cv-key-s[data-v-e9be7f67] {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  fill: var(--muted);
+}
+.cv-runbox[data-v-e9be7f67] {
+  fill: rgba(var(--updates-rgb), 0.07);
+  stroke: rgba(var(--updates-rgb), 0.4);
+}
+.cv-runbox[data-v-e9be7f67] {
+  animation: cvPulse-e9be7f67 2.7s ease-in-out infinite;
+}
+@keyframes cvPulse-e9be7f67 {
+0%, 100% { opacity: 0.55;
+}
+15%, 30% { opacity: 1;
+}
+}
+.cv-run-t[data-v-e9be7f67] {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  fill: var(--fg);
+}
+.cv-arrow[data-v-e9be7f67] {
+  fill: none;
+  stroke: rgba(var(--fg-rgb), 0.5);
+  stroke-width: 1.8;
+}
+.cv-release[data-v-e9be7f67] {
+  fill: rgba(var(--privacy-rgb), 0.1);
+  stroke: var(--privacy);
+  stroke-width: 1.4;
+}
+.cv-rel-t[data-v-e9be7f67] {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  fill: var(--privacy);
+}
+.cv-rel-s[data-v-e9be7f67] {
+  font-family: var(--font-sans);
+  font-size: 13.5px;
+  fill: var(--fg);
+}
+.cv-rel-s2[data-v-e9be7f67] {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  fill: var(--muted);
+}
+.cv-bud-l[data-v-e9be7f67] {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  fill: var(--muted);
+}
+.cv-bud.train[data-v-e9be7f67] { fill: var(--updates);
+}
+.cv-bud.eval[data-v-e9be7f67] { fill: var(--privacy);
+}
+.cv-bud-t[data-v-e9be7f67] {
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  font-weight: 600;
+  fill: var(--surface);
+}
+.cv-bud-t.dark[data-v-e9be7f67] { fill: var(--surface);
+}
+.cv-fade[data-v-e9be7f67] {
+  opacity: 0;
+  transition: opacity 0.45s ease;
+}
+.cv-fade.on[data-v-e9be7f67] {
+  opacity: 1;
+}

@@ -1,0 +1,48 @@
+
+.aa[data-v-213d7040] { width: 100%; height: auto; display: block; overflow: visible;
+}
+.aa-panel[data-v-213d7040] { fill: #071323; fill-opacity: .92; stroke: #36546A; stroke-width: 1.2;
+}
+.aa-head[data-v-213d7040] { font-family: var(--font-sans); font-size: 21px; font-weight: 600; fill: var(--fg);
+}
+.aa-ring[data-v-213d7040] { fill: rgba(56, 198, 173, .06); stroke: var(--privacy); stroke-opacity: .55; stroke-width: 1.6; stroke-dasharray: 6 5;
+}
+.aa-arrow[data-v-213d7040] { fill: none; stroke: #FF4D5E; stroke-opacity: .42; stroke-width: 1.3;
+}
+.aa-arrow.sticky[data-v-213d7040] { stroke-opacity: .9; stroke-width: 2.6;
+}
+.aa-tip[data-v-213d7040] { fill: #FF7180; fill-opacity: .8;
+}
+.aa-tip.sticky[data-v-213d7040] { fill-opacity: 1;
+}
+.aa-avg-line[data-v-213d7040] { stroke: #FFF2F3; stroke-width: 2.4; stroke-dasharray: 4 3;
+}
+.aa-avg[data-v-213d7040] { fill: #FFF2F3; stroke: #FF4D5E; stroke-width: 3;
+}
+.aa-avg.sticky[data-v-213d7040] { stroke: var(--privacy);
+}
+.aa-beat[data-v-213d7040] { fill: none; stroke: var(--privacy); stroke-width: 2.5;
+}
+.aa-true[data-v-213d7040] { fill: var(--data); stroke: #FFE2B0; stroke-width: 2;
+}
+.aa-true-label[data-v-213d7040] { font-family: var(--font-sans); font-size: 15px; font-weight: 700; fill: var(--data);
+}
+.aa-count[data-v-213d7040] { font-family: var(--font-mono); font-size: 16px; fill: var(--muted);
+}
+.aa-verdict[data-v-213d7040] { font-family: var(--font-sans); font-size: 18px; font-weight: 650; fill: #FF7180; opacity: 0; transition: opacity .3s ease;
+}
+.aa-verdict.sticky[data-v-213d7040] { fill: var(--privacy);
+}
+.aa-verdict.on[data-v-213d7040] { opacity: 1;
+}
+
+/* Panel, caption and footnote share the space below the title evenly. */
+/* The attack scene is shown at full brightness: no reading tint over the canvas on this slide. */
+.slidev-layout[data-v-0caa30f3]:has(.sticky-attack)::after { opacity: 0;
+}
+.sticky-attack[data-v-0caa30f3] { position: absolute; right: 6%; top: 15%; width: 44%;
+}
+.sticky-caption[data-v-0caa30f3] { position: absolute !important; left: 50%; top: 82.5%; transform: translateX(-50%); width: max-content; max-width: 88.6%; margin: 0 !important;
+}
+.sticky-foot[data-v-0caa30f3] { position: absolute; left: 0; right: 0; top: 94.8%; margin: 0 !important;
+}

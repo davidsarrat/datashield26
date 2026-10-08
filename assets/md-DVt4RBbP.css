@@ -1,0 +1,44 @@
+
+.dpd[data-v-50dc2d4d] { width: 100%; max-width: 790px; margin: 0 auto; height: auto; display: block; overflow: visible;
+}
+.dpd-row[data-v-50dc2d4d], .dpd-same[data-v-50dc2d4d] { transition: opacity .45s ease;
+}
+.dpd-hidden[data-v-50dc2d4d] { opacity: 0;
+}
+.dpd-label[data-v-50dc2d4d] { font-family: var(--font-sans); font-size: 21px; font-weight: 650; fill: var(--fg);
+}
+.dpd-person[data-v-50dc2d4d] { fill: none; stroke: #8FA3BD; stroke-width: 2.2;
+}
+.dpd-ana[data-v-50dc2d4d] { fill: var(--data); fill-opacity: .25; stroke: var(--data); stroke-width: 2.6;
+}
+.dpd-ana-name[data-v-50dc2d4d] { font-family: var(--font-sans); font-size: 15px; font-weight: 700; fill: var(--data);
+}
+.dpd-gap[data-v-50dc2d4d] { fill: none; stroke: var(--data); stroke-opacity: .7; stroke-width: 1.8; stroke-dasharray: 3 3.5;
+}
+.dpd-arrow[data-v-50dc2d4d] { stroke: #B8CADE; stroke-width: 2.5; fill: none;
+}
+.dpd-step[data-v-50dc2d4d] { font-family: var(--font-mono); font-size: 15px; fill: var(--muted);
+}
+.dpd-panel[data-v-50dc2d4d] { fill: rgba(10, 22, 43, .9); stroke: rgba(126, 250, 255, .35); stroke-width: 1.5;
+}
+.dpd-bar[data-v-50dc2d4d] { fill: var(--accent); fill-opacity: .85;
+}
+.dpd-caption[data-v-50dc2d4d] { font-family: var(--font-mono); font-size: 14px; fill: var(--muted);
+}
+.dpd-brace[data-v-50dc2d4d] { fill: none; stroke: var(--privacy); stroke-width: 2.5;
+}
+.dpd-approx[data-v-50dc2d4d] { font-family: var(--font-sans); font-size: 64px; font-weight: 300; fill: var(--privacy);
+}
+.dpd-same-text[data-v-50dc2d4d] { font-family: var(--font-sans); font-size: 22px; font-weight: 600; fill: var(--privacy);
+}
+@media (prefers-reduced-motion: reduce) {
+.dpd-row[data-v-50dc2d4d], .dpd-same[data-v-50dc2d4d] { transition: none;
+}
+}
+
+.dp-definition[data-v-7ed914b5] { margin: 0 auto 1.1em; max-width: 88%; text-align: center; font-size: 1.45em; line-height: 1.38; color: var(--fg);
+}
+.dp-definition strong[data-v-7ed914b5] { color: var(--privacy); font-weight: 700;
+}
+.dp-definition .dp-anyone[data-v-7ed914b5] { color: var(--data); font-weight: 650;
+}

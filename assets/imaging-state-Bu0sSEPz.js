@@ -1,0 +1,1 @@
+var e={active:!1,page:0,step:0},t=null;function n(n,r,i){t=n,e.active=!0,e.page=r,e.step=Math.max(0,Math.min(2,i))}function r(n){t===n&&(t=null,e.active=!1)}export{n,r,e as t};
